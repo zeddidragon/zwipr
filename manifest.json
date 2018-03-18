@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Zwipr",
+  "version": "1.0",
+  "description": "Allows right-click download of undownloadable flickr images",
+  "icons": {
+    "48": "icons/zwipr-48.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://www.flickr.com/*"],
+    "js": ["zwipr.js"]
+  }]
+}
