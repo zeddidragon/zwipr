@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Zwipr",
   "version": "1.1",
   "description": "Allows right-click download of undownloadable flickr images",
